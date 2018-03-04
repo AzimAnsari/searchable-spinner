@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SearchableSpinner">
+        <attr name="defaultText" format="string" />
+        <attr name="invalidTextColor" format="color" />
+    </declare-styleable>
+</resources>
