@@ -60,12 +60,10 @@ Declare spinner dataset
         <item>Zambia</item>
         <item>Zimbabwe</item>
     </string-array>
-    ```
     
     
     Initialize spiiner with this data
     
-    ```
         String[] data = getResources().getStringArray(R.array.countries_array);
     
         SearchableSpinner spinner1 = (SearchableSpinner) findViewById(R.id.spinner1);
@@ -81,6 +79,5 @@ Declare spinner dataset
                 Log.i("Select1", "Position : " + position + " : Value : " + value + " : " + spinnerId);
             }
         });
-    ```
     
     And thats it
